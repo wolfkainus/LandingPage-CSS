@@ -9,7 +9,7 @@ body {
 	font-size: 1.8rem;
 	font-family:'Hind',sans-serif;
 	line-height: 1.5;
-	font-weight: 300;
+	font-weight: 400;
 	-webkit-font-smoothing: antialiased;
 		-moz-font-smoothing: antialiased;
 			font-smoothing: antialiased;
@@ -83,9 +83,9 @@ small, .small {
 
 nav ul,
 nav ol,
-.clear-list {
-	margin:0;
-	padding:0;
+.clean-list {
+	margin: 0;
+	padding: 0;
 	list-style: none;
 }
 
