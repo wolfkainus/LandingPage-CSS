@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>LandingPage</title>
+	<link rel="stylesheet" href="assets/css/normalize.css">
+	<link rel="stylesheet" href="assets/css/grid.css">
+	<link rel="stylesheet" href="assets/css/main.css">
+	<link rel="stylesheet" href="assets/css/type.css">
+	<link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+<!--HEADER-->
+	<nav class="menu">
+		<div>
+			<a class="menu-item" href="" title="Sign up">Sign up</a>
+			<a class="menu-item" href="" title="Download">Download</a>
+			<a class="menu-item" href="" title="Business">Business</a>
+			<a class="menu-item logo" href="" title="Home">Home</a>
+			<a class="menu-item" href="" title="Education">Education</a>
+			<a class="menu-item" href="" title="Pricing">Pricing</a>
+			<a class="menu-item" href="" title="Login">Login</a>
+		</div>
+	</nav>
+
+	<header class="header">
+		<div class="grid-container">
+			<div class="row">
+				<div class="col-7 header-info">
+					<h1 class="header-title">Protect your devices from theft</h1>
+					<h6 class="header-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ut, maxime.</h6>
+					<button class="btn btn-header">Sign up</button>
+				</div>				
+			</div>			
+		</div>
+	</header>
+
+	<main>
+
+<!--THEFT-->
+		<section class="theft"> 
+			<div class="grid-container">
+				<div class="row">
+					<div class="col-5 theft-info">
+						<h2 class="theft-title">Defeating theft</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consectetur dolorem repudiandae doloremque inventore optio consequatur molestias, velit iste aspernatur suscipit voluptatibus natus laudantium quidem vitae, ipsum tempora quam maxime placeat numquam totam aliquid. Aspernatur ratione, quia ab debitis voluptatibus ipsa?</p>
+					</div>
+					<div class="col-7 theft-video">
+						<button class="btn btn-video">Play Video</button>
+					</div>
+			</div>
+		</section>
+
+<!--SPECS-->
+		<section class="specs">
+			<div class="grid-container">
+				<div class="row">
+					<h2 class="specs-title">Lorem ipsum dolor sit amet, consectetur.</h2>
+					<figure class="specs-divices">
+						<img src="images/equipos.png" alt="equipos">
+					</figure>
+					<div class="marcas">
+						<ul>
+							<li><img src="images/android.png" height="44" width="40" alt=""></li>
+							<li><img src="images/apple.png" height="40" width="33" alt=""></li>
+							<li><img src="images/windows.png" height="40" width="40" alt=""></li>
+							<li><img src="images/linux.png" height="40" width="33" alt=""></li>
+						</ul>
+					</div>
+					
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Id deleniti earum vel sapiente quo sequi tenetur sint nemo adipisci amet tempore, facere eum? Deleniti minima sit, tenetur nostrum beatae minus. Ab voluptatum tenetur iste veniam, eaque dicta ipsum ipsam nisi ea nemo esse doloremque a nostrum dolore incidunt dolorem repellendus, in culpa cumque ipsa impedit quae quod!</p>
+						
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse, quia!</p>
+				</div>							
+				<ul class="row clean-list specs-list">
+					<div class="specs-list-li col-4">
+						<li class="specs-list-item">
+							<span class="icon icon-alarm"></span> Alarm</li>
+						<li class="specs-list-item">
+							<span class="icon icon-location"></span> Location</li>
+						<li class="specs-list-item">
+							<span class="icon icon-lock"></span>Lock</li>
+					</div>
+					<div class="specs-list-li col-4">
+						<li class="specs-list-item">
+							<span class="icon icon-stats-bars"></span>Reports</li>
+						<li class="specs-list-item">
+							<span class="icon icon-file-picture"></span>Pictures</li>
+						<li class="specs-list-item">
+							<span class="icon icon-camera"></span>Screenshots</li>
+					</div>
+					<div class="specs-list-li col-4">
+						<li class="specs-list-item">
+							<span class="icon icon-database"></span>Wipe Data</li>
+						<li class="specs-list-item">
+							<span class="icon icon-bubbles3"></span>Messages</li>
+						<li class="specs-list-item">
+							<span class="icon icon-compass"></span>Protect Passwords</li>
+					</div>
+				</ul>			
+			</div>
+		</section>
+
+<!--TESTIMONY-->
+		<section class="testimony">
+			<div class="grid-container">
+				<figure class="user">
+					<img src="images/man.jpg" alt="" width="120px" height="120px">
+					<figcaption class="user-info">Alfredo Lobos, Chile</figcaption>
+				</figure>
+						
+				<blockquote class="testimony-block">
+						<p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque egestas eleifend elit ut mollis. In iaculis augue vitae nisi maximus ultrices molestie vel mi. In dignissim massa odio."</p>
+				</blockquote>
+				<div class="arrow">
+					<img src="images/arrow.png" height="112" width="65" alt="">
+				</div>
+				<div class="arrow-neg">
+					<img src="images/arrow.png" height="112" width="65" alt="">
+				</div>				
+			</div>
+		</section>
+		
+<!--HEADER-->
+		<div class="plan-container">
+			<article class="plans">
+				<div class="grid-container">
+					<div class="row">
+						<h6 class="plans-subtitle">THERE'S A PREY FOR YOU</h6>
+						<h2 class="plans-title">Choose your plan</h2>
+					</div>
+
+					<div class="row">
+						<section class="plan col-4">
+							<header class="plan-header">
+								<h3>Basic</h3>
+								<p>Free</p>
+							</header>
+							<div class="plan-details">
+								<p class="plan-details-title">up to 3 devices</p>
+								<ul class="clean-list plan-list">
+									<li><span class="plan-list-item">Reports up to 100</span></li>
+									<span class="list-text">Up to 100</span>
+									<li><span class="plan-list-item">Location</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Alarm</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Lock</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Messages</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Delete Browser Data</span></li>
+									<span class="list-token uncheck">-</span>
+									<li><span class="plan-list-item uncheck">Delete Email/Passwords</span></li>
+									<span class="list-token uncheck">-</span>
+									<li><span class="plan-list-item uncheck">Wipe Device</span></li>
+									<span class="list-token uncheck">-</span>
+								</ul>
+								<button class="btn btn-plan">Sign up for free</button>
+							</div>
+						</section>
+						<section class="plan plan-featured col-4">
+							<header class="plan-header-featured">
+								<h3>Personal</h3>
+								<p><span class="plan-header-title">$5</span> usd/month</p>
+							</header>
+							<div class="plan-details">
+								<p class="plan-details-title">up to 3 devices</p>
+								<ul class="clean-list plan-list">
+									<li><span class="plan-list-item">Reports up to 100</span></li>
+									<span class="list-text">Up to 100</span>
+									<li><span class="plan-list-item">Location</span><li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Alarm</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Lock</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Messages</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Delete Browser Data</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Delete Email/Passwords</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Wipe Device</span></li>
+									<span class="list-token uncheck">-</span>
+								</ul>
+								<button class="btn btn-plan-featured">Choose this plan</button>
+							</div>
+						</section>
+						<section class="plan col-4">
+							<header class="plan-header">
+								<h3>Home</h3>
+								<p><span class="plan-header-title">$15</span> usd/month</p>
+							</header>
+							<div class="plan-details">
+								<p class="plan-details-title">up to 10 devices</p>
+								<ul class="clean-list plan-list">
+									<li><span class="plan-list-item">Reports up to 100</span></li>
+									<span class="list-text">Up to 100</span>
+									<li><span class="plan-list-item">Location</span><li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Alarm</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Lock</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item">Messages</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Delete Browser Data</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Delete Email/Passwords</span></li>
+									<span class="list-token">✓</span>
+									<li><span class="plan-list-item uncheck">Wipe Device</span></li>
+									<span class="list-token">✓</span>
+								</ul>
+								<button class="btn btn-plan btn-plan02">Choose this plan</button>
+							</div>
+						</section>
+					</div>
+				</div>
+			</article>
+		</div>
+
+<!--BUSINESS & EDUCATION-->
+		<section class="business-education">
+			<div class="business-education-info col-6">
+				<h3 class="business-education-title">BUSINESS & EDUCATION</h3>
+				<ul class="clean-list business-education-list">
+					<li>Get prey for you team</li>
+					<li>All of Prey Features</li>
+					<li>Centralizen Administrator</li>
+					<li>Employee privacy</li>
+				</ul>
+			</div>
+			<button class="btn btn-talk col-6">LET'S TALK</button>
+		</section>
+	</main>
+
+<!--FOOTER-->
+	<footer class="footer">
+		<figure class="footer-logo">
+			<img src="images/prey-logo-footer.png">
+		</figure>
+		<div class="grid-container">
+			<nav class="footer-menu">
+				<a class="footer-menu-item" href="">Home</a>
+				<a class="footer-menu-item" href="">Business</a>
+				<a class="footer-menu-item" href="">Education</a>
+				<a class="footer-menu-item" href="">Pricing</a>
+				<a class="footer-menu-item" href="">Blog</a>
+				<a class="footer-menu-item" href="">Terms Of Service</a>
+				<a class="footer-menu-item" href="">Privacy Policy</a>
+				<a class="footer-menu-item" href="">Help?</a>
+			</nav>
+			<div class="copyright">
+				<p><small>&copy;<time datetime="2015">2015</time> – Plan</small></p>
+				<p><small>The name and logo for PLAN are registered trademarks.</small></p>
+			</div>
+		</div>
+	</footer>
+</body>
+</html>
